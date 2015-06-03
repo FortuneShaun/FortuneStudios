@@ -1,0 +1,42 @@
+/* CSS Document */
+
+header {
+	background-color: #38394B;
+	text-align: center;
+	padding-top: 5px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif
+}
+header * {
+	color: white;
+}
+nav, nav ul {
+	width: 100%
+}
+nav ul li {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+nav ul li a, nav ul ul li a {
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav ul, nav li, nav a {
+	transition: color .5s, background-color .5s;
+}
+nav > ul > li:hover, nav > ul > li:hover > a {
+	color: #E44C65;
+	background-color: #252632;
+}
+nav > ul > li > a:active {
+	color: #EA798C;
+	background-color: #252632;
+}
+nav ul ul {
+	display: none;
+	position: absolute;
+	width: 100%;
+	background-color: #E44C65;
+}

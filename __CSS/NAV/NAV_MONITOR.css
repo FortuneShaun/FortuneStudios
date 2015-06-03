@@ -1,0 +1,24 @@
+/* CSS Document */
+
+nav ul li {
+	width: 25%;
+}
+nav ul ul li {
+	display: block;
+	width: 100%;
+}
+nav ul li:hover> ul {
+	display: block;
+}
+nav ul ul ul {
+	right: 100%;
+	top: 0%;
+}
+nav ul ul li:hover, nav ul ul li:hover > a {
+	background-color: #CA1E3A;
+	color: lightgray;
+}
+nav ul ul li > a:active {
+	background-color: #EA798C;
+	color: #252632;
+}
